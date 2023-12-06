@@ -1,0 +1,18 @@
+scalar LocalDateTime
+
+type Flight {
+  id: String!
+  gate: String!
+  airline: String!
+  srcDest: String!
+  flightNum: String!
+  scheduledTimestamp: LocalDateTime!
+  actualTimestamp: LocalDateTime
+  type: String!
+}
+
+type Query {
+  flights: [Flight!]
+  # recentDelayedFlights: [Flight!]
+  flightsByFlightNum(flightNum: String!): [Flight!]
+}
