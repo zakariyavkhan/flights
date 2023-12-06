@@ -1,4 +1,4 @@
-![Gradle](https://github.com/github/docs/actions/workflows/gradle.yml/badge.svg)
+![Gradle](https://github.com/zakariyavkhan/flights/actions/workflows/gradle.yml/badge.svg)
 # flights
 GraphQL API for YYJ Arrivals and Departures Data
 
